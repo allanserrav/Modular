@@ -1,0 +1,79 @@
+﻿<div class="alert alert-danger" role="alert" *ngIf="errors.length > 0">
+    <ul>
+        <li *ngFor="let error of errors">
+            {{ error }}
+        </li>
+    </ul>
+</div>
+<div class="alert alert-success" role="alert" *ngIf="successfulSave">
+    Produto salvo com sucesso
+</div>
+
+<form novalidate [formGroup]="produtoForm" (ngSubmit)="onSubmit()" class="form-horizontal">
+
+    <div class="form-group">
+
+        <div class="row">
+            <div class="col-sm-6">
+                <mat-form-field>
+                    <input matInput placeholder="Código" id="codigo" formControlName="codigo" />
+                    <mat-error *ngIf="produtoForm.controls.codigo.hasError('required')">
+                        Código não informado
+                    </mat-error>
+                    <mat-error *ngIf="produtoForm.controls.codigo.hasError('minlength')">
+                        Código informado é inválido
+                    </mat-error>
+                </mat-form-field>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <mat-form-field>
+                    <input matInput placeholder="Nome" formControlName="nome" />
+                    <mat-error *ngIf="produtoForm.controls.nome.hasError('required')">
+                        Nome não informado
+                    </mat-error>
+                </mat-form-field>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <mat-form-field>
+                    <input matInput placeholder="Categoria" formControlName="categoria" [matAutocomplete]="auto" />
+                    <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFnCategoria">
+                        <mat-option *ngFor="let sector of categorias" [value]="sector">
+                            {{ sector.codigo }} - {{ sector.descricao }}
+                        </mat-option>
+                    </mat-autocomplete>
+                </mat-form-field>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <mat-form-field>
+                    <input matInput placeholder="Preço" formControlName="preco" type="number" />
+                    <mat-error *ngIf="produtoForm.controls.preco.hasError('required')">
+                        Preço não informado
+                    </mat-error>
+                </mat-form-field>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <mat-form-field>
+                    <textarea matInput placeholder="Anotação" formControlName="anotacao"></textarea>
+                </mat-form-field>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3">
+                <button type="submit" class="btn btn-primary" [disabled]="produtoForm.invalid">Submit</button>
+            </div>
+        </div>
+    </div>
+</form>

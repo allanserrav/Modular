@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>GestaoBuilder.CoreShared</AssemblyName>
+    <RootNamespace>GestaoBuilder.CoreShared</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GestaoBuilder.Shared\GestaoBuilder.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

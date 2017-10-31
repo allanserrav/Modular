@@ -1,0 +1,20 @@
+﻿<h5>Categoria produto lista</h5>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Código</th>
+            <th>Descrição</th>
+            <th>Anotação</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let cat of categorias">
+            <td>{{ cat.codigo }}</td>
+            <td>{{ cat.descricao }}</td>
+            <td>{{ cat.anotacao }}</td>
+            <td><action-item [obj]="cat"></action-item></td>
+            <!--<td><button type="button" class="btn btn-primary" (click)="navigateToDetail('123')">Detalhe</button></td>-->
+        </tr>
+    </tbody>
+</table>
