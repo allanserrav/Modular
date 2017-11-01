@@ -18,7 +18,7 @@
     </DotNetCliToolReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GestaoBuilder.Data.EFCore\Modular.Data.EFCore.csproj" />
+    <ProjectReference Include="..\Modular.Data.EFCore\Modular.Data.EFCore.csproj" />
   </ItemGroup>
 
   <ItemGroup>

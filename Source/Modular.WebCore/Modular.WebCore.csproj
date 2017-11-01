@@ -44,13 +44,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GestaoBuilder.CoreShared\Modular.CoreShared.csproj" />
-    <ProjectReference Include="..\GestaoBuilder.Core\Modular.Core.csproj" />
-    <ProjectReference Include="..\GestaoBuilder.Data.EFCore\Modular.Data.EFCore.csproj" />
-    <ProjectReference Include="..\GestaoBuilder.Data.MongoCore\Modular.Data.MongoCore.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <TypeScriptCompile Include="ClientApp\app\app.module.material.ts" />
     <TypeScriptCompile Include="ClientApp\app\app.module.routing.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\produto\categoria-produto-list\categoria-produto-list.component.ts" />
@@ -67,6 +60,14 @@
   <ItemGroup>
     <Folder Include="ClientApp\app\components\produto\categoria-produto\" />
     <Folder Include="ClientApp\app\components\shared\model\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Modular.CoreShared\Modular.CoreShared.csproj" />
+    <ProjectReference Include="..\Modular.Core\Modular.Core.csproj" />
+    <ProjectReference Include="..\Modular.Data.EFCore\Modular.Data.EFCore.csproj" />
+    <ProjectReference Include="..\Modular.Data.MongoCore\Modular.Data.MongoCore.csproj" />
+    <ProjectReference Include="..\Modular.Shared\Modular.Shared.csproj" />
   </ItemGroup>
 
   <Target Name="DebugRunWebpack" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('wwwroot\dist') ">

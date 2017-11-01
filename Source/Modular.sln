@@ -5,25 +5,25 @@ VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{6E73282A-5C8B-46C3-AABD-1692D25715F7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modular.Shared", "GestaoBuilder.Shared\Modular.Shared.csproj", "{6186405E-5549-4F43-8B5F-6C03232508F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modular.Shared", "Modular.Shared\Modular.Shared.csproj", "{6186405E-5549-4F43-8B5F-6C03232508F1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{83C65489-2413-4132-9CDD-C9BBD149887F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modular.Data.Dapper", "GestaoBuilder.Data.Dapper\Modular.Data.Dapper.csproj", "{DBF9408E-E3FA-439D-9E44-ED90D7201DF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modular.Data.Dapper", "Modular.Data.Dapper\Modular.Data.Dapper.csproj", "{DBF9408E-E3FA-439D-9E44-ED90D7201DF2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modular.Data.EFCore", "GestaoBuilder.Data.EFCore\Modular.Data.EFCore.csproj", "{A5B1C9FB-C50D-4188-848F-DA9603B33234}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modular.Data.EFCore", "Modular.Data.EFCore\Modular.Data.EFCore.csproj", "{A5B1C9FB-C50D-4188-848F-DA9603B33234}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modular.Data.EFCoreMigrations", "GestaoBuilder.Data.EFCoreMigrations\Modular.Data.EFCoreMigrations.csproj", "{76C4E31D-952C-469C-B265-7D7161ECE872}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modular.Data.EFCoreMigrations", "Modular.Data.EFCoreMigrations\Modular.Data.EFCoreMigrations.csproj", "{76C4E31D-952C-469C-B265-7D7161ECE872}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Background", "Background", "{2CEF74C5-0691-49C0-80D4-D5AD663FAF81}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modular.BackgroundService", "GestaoBuilder.BackgroundService\Modular.BackgroundService.csproj", "{E0A0EE02-3761-4745-A9E7-BB303AF10FE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modular.BackgroundService", "Modular.BackgroundService\Modular.BackgroundService.csproj", "{E0A0EE02-3761-4745-A9E7-BB303AF10FE9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modular.Core", "GestaoBuilder.Core\Modular.Core.csproj", "{39304C56-8FB5-4299-BBE2-C423A35F8236}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modular.Core", "Modular.Core\Modular.Core.csproj", "{39304C56-8FB5-4299-BBE2-C423A35F8236}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modular.CoreShared", "GestaoBuilder.CoreShared\Modular.CoreShared.csproj", "{7ED65BC4-D626-42D7-AA2B-C0DAB554AA09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modular.CoreShared", "Modular.CoreShared\Modular.CoreShared.csproj", "{7ED65BC4-D626-42D7-AA2B-C0DAB554AA09}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modular.Data.MongoCore", "GestaoBuilder.Data.MongoCore\Modular.Data.MongoCore.csproj", "{E8AEFAD4-9293-4EBE-9082-05AA5CD3F1F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modular.Data.MongoCore", "Modular.Data.MongoCore\Modular.Data.MongoCore.csproj", "{E8AEFAD4-9293-4EBE-9082-05AA5CD3F1F1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{804366F0-B37D-4307-891E-4D19B2FD9757}"
 EndProject
@@ -37,15 +37,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sql", "Sql", "{C3F9A337-772
 		..\Sql\query_agrupamento.sql = ..\Sql\query_agrupamento.sql
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoBuilder.CoreBusiness", "GestaoBuilder.CoreBusiness\GestaoBuilder.CoreBusiness.csproj", "{D1D9A580-E3E9-47BF-BABA-ABDBFF02B33D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modular.CoreBusiness", "Modular.CoreBusiness\Modular.CoreBusiness.csproj", "{D1D9A580-E3E9-47BF-BABA-ABDBFF02B33D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{0B51D439-5E5B-48AB-A954-1BC33FAA545B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modular.ApiDebugConsole", "GestaoBuilder.ApiDebugConsole\Modular.ApiDebugConsole.csproj", "{F4F3E598-F271-40FB-A7AB-2B62CA7770CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modular.ApiDebugConsole", "Modular.ApiDebugConsole\Modular.ApiDebugConsole.csproj", "{F4F3E598-F271-40FB-A7AB-2B62CA7770CD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6B6E2762-419B-4C35-A6FC-580515DD5223}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modular.WebCore", "GestaoBuilder.WebCore\Modular.WebCore.csproj", "{1C53EAD2-6DCD-4100-8F32-F84100E40B0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modular.WebCore", "Modular.WebCore\Modular.WebCore.csproj", "{1C53EAD2-6DCD-4100-8F32-F84100E40B0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
