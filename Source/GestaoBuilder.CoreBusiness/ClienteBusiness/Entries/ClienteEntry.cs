@@ -1,4 +1,4 @@
-﻿namespace GestaoBuilder.CoreBusiness.ClienteBusiness.Entries
+﻿namespace Modular.CoreBusiness.ClienteBusiness.Entries
 {
     public enum ClienteAcao
     {

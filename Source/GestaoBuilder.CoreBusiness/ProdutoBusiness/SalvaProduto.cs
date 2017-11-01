@@ -1,9 +1,9 @@
-﻿using GestaoBuilder.Shared;
-using GestaoBuilder.Shared.Atributos;
-using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Shared.Data.Business.Domain;
+﻿using Modular.Shared;
+using Modular.Shared.Atributos;
+using Modular.Shared.Contracts;
+using Modular.Shared.Data.Business.Domain;
 
-namespace GestaoBuilder.CoreBusiness.ProdutoBusiness
+namespace Modular.CoreBusiness.ProdutoBusiness
 {
     [Modulo(Codigo = BusinessModuloCodigo.SalvaProduto, Nome = "Salvar o produto")]
     [ModuloCategoria(IsCategoriaNamespace = true)]

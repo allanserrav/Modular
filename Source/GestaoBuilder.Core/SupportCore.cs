@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using GestaoBuilder.Core.Repositories;
-using GestaoBuilder.CoreShared;
-using GestaoBuilder.Shared;
-using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.Business;
-using GestaoBuilder.Shared.Data.Business.Repositories;
+using Modular.Core.Repositories;
+using Modular.CoreShared;
+using Modular.Shared;
+using Modular.Shared.Contracts;
+using Modular.Shared.Data;
+using Modular.Shared.Data.Business;
+using Modular.Shared.Data.Business.Repositories;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace GestaoBuilder.Core
+namespace Modular.Core
 {
     public class SupportCore : ISupport
     {

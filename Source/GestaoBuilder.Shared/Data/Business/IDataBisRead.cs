@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using GestaoBuilder.Shared.Contracts;
+using Modular.Shared.Contracts;
 
-namespace GestaoBuilder.Shared.Data.Business
+namespace Modular.Shared.Data.Business
 {
     public interface IDataBisRead : IDataRead<IDataBisKey>
     {

@@ -1,11 +1,11 @@
 ﻿using System;
-using GestaoBuilder.Shared;
-using GestaoBuilder.Shared.Atributos;
-using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Shared.Data.Business.Domain;
-using GestaoBuilder.Shared.Data.System.Domain;
+using Modular.Shared;
+using Modular.Shared.Atributos;
+using Modular.Shared.Contracts;
+using Modular.Shared.Data.Business.Domain;
+using Modular.Shared.Data.System.Domain;
 
-namespace GestaoBuilder.CoreBusiness.ProdutoBusiness
+namespace Modular.CoreBusiness.ProdutoBusiness
 {
     [Modulo(Codigo = BusinessModuloCodigo.EntradaProduto, Nome = "Entrada de dados do produto")]
     [ModuloCategoria(IsCategoriaNamespace = true)]

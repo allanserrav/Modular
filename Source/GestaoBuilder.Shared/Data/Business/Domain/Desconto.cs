@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GestaoBuilder.Shared.Data.Business.Domain
+namespace Modular.Shared.Data.Business.Domain
 {
     public enum ClasseDesconto : byte
     {

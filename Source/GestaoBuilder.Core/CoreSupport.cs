@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using GestaoBuilder.CoreShared.Contracts;
-using GestaoBuilder.CoreShared.Model;
-using GestaoBuilder.Shared.Data;
+using Modular.CoreShared.Contracts;
+using Modular.CoreShared.Model;
+using Modular.Shared.Data;
 
-namespace GestaoBuilder.Core
+namespace Modular.Core
 {
     public class CoreSupportService : ICoreSupport
     {

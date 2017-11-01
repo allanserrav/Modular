@@ -1,11 +1,11 @@
 ﻿using System;
-using GestaoBuilder.Shared;
-using GestaoBuilder.Shared.Atributos;
-using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Shared.Data.Business.Domain;
-using GestaoBuilder.Shared.Data.System.Domain;
+using Modular.Shared;
+using Modular.Shared.Atributos;
+using Modular.Shared.Contracts;
+using Modular.Shared.Data.Business.Domain;
+using Modular.Shared.Data.System.Domain;
 
-namespace GestaoBuilder.CoreBusiness.ClienteBusiness
+namespace Modular.CoreBusiness.ClienteBusiness
 {
     [Modulo(Codigo = BusinessModuloCodigo.SalvaCliente, Nome = "Salvar dados do cliente",
                 AgrupamentoCodigo = BusinessModuloCodigo.AgrupamentoSalvaCliente, AgrupamentoOrdem = 2, PrincipalNoAgrupamento = true)]

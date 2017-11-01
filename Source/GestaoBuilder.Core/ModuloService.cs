@@ -2,15 +2,15 @@
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using GestaoBuilder.CoreShared;
-using GestaoBuilder.CoreShared.Contracts;
-using GestaoBuilder.CoreShared.Model;
-using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Shared.Data.Business;
+using Modular.CoreShared;
+using Modular.CoreShared.Contracts;
+using Modular.CoreShared.Model;
+using Modular.Shared.Contracts;
+using Modular.Shared.Data.Business;
 using Microsoft.Extensions.Logging;
-using GestaoBuilder.Core.Contracts;
+using Modular.Core.Contracts;
 
-namespace GestaoBuilder.Core
+namespace Modular.Core
 {
     public class ModuloService : IModuloServiceCore
     {

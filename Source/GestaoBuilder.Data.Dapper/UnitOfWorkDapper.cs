@@ -1,9 +1,9 @@
-﻿using GestaoBuilder.Shared.Contracts;
+﻿using Modular.Shared.Contracts;
 using System;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.System;
+using Modular.Shared.Data;
+using Modular.Shared.Data.System;
 
-namespace GestaoBuilder.Data.Dapper
+namespace Modular.Data.Dapper
 {
     public class UnitOfWorkDapper : IUnitOfWork
     {

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using GestaoBuilder.Shared.Atributos;
+using Modular.Shared.Atributos;
 
-namespace GestaoBuilder.Shared.Data.Business.Domain
+namespace Modular.Shared.Data.Business.Domain
 {
     [Data(DocumentName = "categorias_produto")]
     public class CategoriaProduto : IDataBis

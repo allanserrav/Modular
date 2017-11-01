@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using GestaoBuilder.Shared.Atributos;
+using Modular.Shared.Atributos;
 
-namespace GestaoBuilder.Shared.Data.Business.Domain
+namespace Modular.Shared.Data.Business.Domain
 {
     [Data(DocumentName = "clientes")]
     public class Cliente : DataModificada<Cliente>, IDataBis

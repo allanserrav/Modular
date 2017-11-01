@@ -1,22 +1,22 @@
 ﻿using System;
 using System.Threading.Tasks;
-using GestaoBuilder.Core;
-using GestaoBuilder.CoreShared;
-using GestaoBuilder.CoreShared.Contracts;
-using GestaoBuilder.CoreShared.Model;
-using GestaoBuilder.Data.EFCore;
-using GestaoBuilder.Data.MongoCore;
-using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.Business;
-using GestaoBuilder.Shared.Data.System;
+using Modular.Core;
+using Modular.CoreShared;
+using Modular.CoreShared.Contracts;
+using Modular.CoreShared.Model;
+using Modular.Data.EFCore;
+using Modular.Data.MongoCore;
+using Modular.Shared.Contracts;
+using Modular.Shared.Data;
+using Modular.Shared.Data.Business;
+using Modular.Shared.Data.System;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Linq;
 
-namespace GestaoBuilder.ApiDebugConsole
+namespace Modular.ApiDebugConsole
 {
     class Program
     {

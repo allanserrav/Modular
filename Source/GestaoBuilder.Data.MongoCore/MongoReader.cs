@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using GestaoBuilder.CoreShared.Contracts;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.Business;
+using Modular.CoreShared.Contracts;
+using Modular.Shared.Data;
+using Modular.Shared.Data.Business;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
 using MongoDB.Driver;
 
-namespace GestaoBuilder.Data.MongoCore
+namespace Modular.Data.MongoCore
 {
     public class MongoReader : BaseMongo, IDataBisRead
     {

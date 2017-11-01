@@ -1,12 +1,12 @@
 ﻿using System;
-using GestaoBuilder.Shared;
-using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Shared.Data;
+using Modular.Shared;
+using Modular.Shared.Contracts;
+using Modular.Shared.Data;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json.Serialization;
 
-namespace GestaoBuilder.CoreShared.Bases
+namespace Modular.CoreShared.Bases
 {
     public class ParseException : ApplicationException
     {

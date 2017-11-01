@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace GestaoBuilder.Shared.Data.System.Domain
+namespace Modular.Shared.Data.System.Domain
 {
     public enum ScriptModuloType
     {

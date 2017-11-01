@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace GestaoBuilder.Data.EFCore.Support
+namespace Modular.Data.EFCore.Support
 {
     public static class ConventionHelper
     {

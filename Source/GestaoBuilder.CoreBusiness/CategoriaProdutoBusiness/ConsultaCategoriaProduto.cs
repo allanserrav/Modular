@@ -1,12 +1,12 @@
-﻿using GestaoBuilder.Shared;
+﻿using Modular.Shared;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Shared.Atributos;
-using GestaoBuilder.Shared.Data.Business.Domain;
+using Modular.Shared.Contracts;
+using Modular.Shared.Atributos;
+using Modular.Shared.Data.Business.Domain;
 
-namespace GestaoBuilder.CoreBusiness.CategoriaProdutoBusiness
+namespace Modular.CoreBusiness.CategoriaProdutoBusiness
 {
     [Modulo(Codigo = BusinessModuloCodigo.ListaCategoriaProduto, Nome = "Listar categorias de produto")]
     [ModuloCategoria(IsCategoriaNamespace = true)]

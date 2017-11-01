@@ -1,11 +1,11 @@
-﻿using GestaoBuilder.Shared.Contracts;
+﻿using Modular.Shared.Contracts;
 using Microsoft.EntityFrameworkCore.Storage;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using GestaoBuilder.Shared.Data;
+using Modular.Shared.Data;
 
-namespace GestaoBuilder.Data.EFCore
+namespace Modular.Data.EFCore
 {
     public class EFTransaction : IDataTransaction
     {

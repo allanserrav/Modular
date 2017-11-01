@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using GestaoBuilder.Shared;
-using GestaoBuilder.Shared.Atributos;
-using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Shared.Data.Business.Domain;
-using GestaoBuilder.Shared.Data.System.Domain;
-using GestaoBuilder.CoreBusiness.CategoriaProdutoBusiness.Validators;
+using Modular.Shared;
+using Modular.Shared.Atributos;
+using Modular.Shared.Contracts;
+using Modular.Shared.Data.Business.Domain;
+using Modular.Shared.Data.System.Domain;
+using Modular.CoreBusiness.CategoriaProdutoBusiness.Validators;
 
-namespace GestaoBuilder.CoreBusiness.CategoriaProdutoBusiness
+namespace Modular.CoreBusiness.CategoriaProdutoBusiness
 {
     [Modulo(Codigo = BusinessModuloCodigo.EntradaCategoriaProduto, Nome = "Entrada de dados da categoria de produto")]
     [ModuloCategoria(IsCategoriaNamespace = true)]

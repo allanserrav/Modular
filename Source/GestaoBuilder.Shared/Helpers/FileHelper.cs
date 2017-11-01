@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace GestaoBuilder.Shared.Helpers
+namespace Modular.Shared.Helpers
 {
     public static class FileHelper
     {

@@ -3,17 +3,17 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.SpaServices.Webpack;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using GestaoBuilder.CoreShared.Contracts;
-using GestaoBuilder.Core;
-using GestaoBuilder.Data.EFCore;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.System;
-using GestaoBuilder.Shared.Contracts;
+using Modular.CoreShared.Contracts;
+using Modular.Core;
+using Modular.Data.EFCore;
+using Modular.Shared.Data;
+using Modular.Shared.Data.System;
+using Modular.Shared.Contracts;
 using Microsoft.Extensions.Logging;
-using GestaoBuilder.Data.MongoCore;
-using GestaoBuilder.Shared.Data.Business;
+using Modular.Data.MongoCore;
+using Modular.Shared.Data.Business;
 using Microsoft.EntityFrameworkCore;
-using GestaoBuilder.Core.Contracts;
+using Modular.Core.Contracts;
 
 namespace GestaoBuilder_WebCore
 {

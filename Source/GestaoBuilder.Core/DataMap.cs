@@ -3,11 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.Business;
-using GestaoBuilder.Shared.Helpers;
+using Modular.Shared.Data;
+using Modular.Shared.Data.Business;
+using Modular.Shared.Helpers;
 
-namespace GestaoBuilder.Core
+namespace Modular.Core
 {
     public class DataMap : IDataMap
     {

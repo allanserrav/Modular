@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 
-namespace GestaoBuilder.Shared.Helpers
+namespace Modular.Shared.Helpers
 {
     public static class AssemblyHelper
     {

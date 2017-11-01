@@ -1,10 +1,10 @@
-﻿using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.Business;
-using GestaoBuilder.Shared.Data.System.Domain;
+﻿using Modular.Shared.Contracts;
+using Modular.Shared.Data;
+using Modular.Shared.Data.Business;
+using Modular.Shared.Data.System.Domain;
 using Microsoft.Extensions.Logging;
 
-namespace GestaoBuilder.Shared
+namespace Modular.Shared
 {
     public abstract class BusinessModuloContext : IModuloContext
     {

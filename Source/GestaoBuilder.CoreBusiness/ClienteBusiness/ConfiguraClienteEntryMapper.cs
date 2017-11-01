@@ -1,11 +1,11 @@
-﻿using GestaoBuilder.CoreBusiness.ClienteBusiness.Entries;
-using GestaoBuilder.Shared;
-using GestaoBuilder.Shared.Atributos;
-using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.System.Domain;
+﻿using Modular.CoreBusiness.ClienteBusiness.Entries;
+using Modular.Shared;
+using Modular.Shared.Atributos;
+using Modular.Shared.Contracts;
+using Modular.Shared.Data;
+using Modular.Shared.Data.System.Domain;
 
-namespace GestaoBuilder.CoreBusiness.ClienteBusiness
+namespace Modular.CoreBusiness.ClienteBusiness
 {
     [Modulo(Codigo = BusinessModuloCodigo.ConfiguraClienteEntryMapper, Nome = "Configuração de mapeamento de dados do cliente entry", 
                 AgrupamentoCodigo = BusinessModuloCodigo.AgrupamentoMapeamento, AgrupamentoOrdem = 2)]

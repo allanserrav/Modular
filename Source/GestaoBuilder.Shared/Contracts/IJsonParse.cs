@@ -4,9 +4,9 @@ using Newtonsoft.Json.Serialization;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using GestaoBuilder.Shared.Data;
+using Modular.Shared.Data;
 
-namespace GestaoBuilder.Shared.Contracts
+namespace Modular.Shared.Contracts
 {
     public interface IParseResult<out T>
     {

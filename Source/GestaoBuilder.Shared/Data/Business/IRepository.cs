@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace GestaoBuilder.Shared.Data.Business
+namespace Modular.Shared.Data.Business
 {
     public interface IRepository<TBis>
         where TBis : IDataBis

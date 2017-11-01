@@ -1,12 +1,12 @@
-﻿using GestaoBuilder.CoreBusiness.Bases;
-using GestaoBuilder.Shared.Data.Business.Domain;
+﻿using Modular.CoreBusiness.Bases;
+using Modular.Shared.Data.Business.Domain;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using GestaoBuilder.Shared.Contracts;
+using Modular.Shared.Contracts;
 using FluentValidation;
 
-namespace GestaoBuilder.CoreBusiness.CategoriaProdutoBusiness.Validators
+namespace Modular.CoreBusiness.CategoriaProdutoBusiness.Validators
 {
     public class CategoriaProdutoValidator : BaseValidator<CategoriaProduto>
     {

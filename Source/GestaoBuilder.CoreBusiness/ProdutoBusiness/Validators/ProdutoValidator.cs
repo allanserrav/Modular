@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
-using GestaoBuilder.Shared.Data.Business.Domain;
+using Modular.Shared.Data.Business.Domain;
 
-namespace GestaoBuilder.CoreBusiness.ProdutoBusiness.Validators
+namespace Modular.CoreBusiness.ProdutoBusiness.Validators
 {
     public class ProdutoValidator : AbstractValidator<Produto>
     {

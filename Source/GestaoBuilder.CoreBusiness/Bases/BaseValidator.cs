@@ -1,10 +1,10 @@
 ﻿using FluentValidation;
-using GestaoBuilder.Shared.Contracts;
+using Modular.Shared.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace GestaoBuilder.CoreBusiness.Bases
+namespace Modular.CoreBusiness.Bases
 {
     public class BaseValidator<T> : AbstractValidator<T>
     {

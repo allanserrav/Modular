@@ -1,13 +1,13 @@
 ﻿using System.Linq;
-using GestaoBuilder.CoreBusiness.ClienteBusiness.Entries;
-using GestaoBuilder.CoreBusiness.ClienteBusiness.Validators;
-using GestaoBuilder.Shared;
-using GestaoBuilder.Shared.Atributos;
-using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Shared.Data.Business.Domain;
-using GestaoBuilder.Shared.Data.System.Domain;
+using Modular.CoreBusiness.ClienteBusiness.Entries;
+using Modular.CoreBusiness.ClienteBusiness.Validators;
+using Modular.Shared;
+using Modular.Shared.Atributos;
+using Modular.Shared.Contracts;
+using Modular.Shared.Data.Business.Domain;
+using Modular.Shared.Data.System.Domain;
 
-namespace GestaoBuilder.CoreBusiness.ClienteBusiness
+namespace Modular.CoreBusiness.ClienteBusiness
 {
     [Modulo(Codigo = BusinessModuloCodigo.AdicionaPontuacaoCliente, Nome = "Adiciona pontuação ao cliente")]
     [ModuloCategoria(IsCategoriaNamespace = true)]

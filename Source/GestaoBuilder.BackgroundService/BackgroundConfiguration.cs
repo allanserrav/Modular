@@ -1,12 +1,12 @@
-﻿using GestaoBuilder.Shared;
-using GestaoBuilder.Shared.Bases;
+﻿using Modular.Shared;
+using Modular.Shared.Bases;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace GestaoBuilder.BackgroundService
+namespace Modular.BackgroundService
 {
     public class BackgroundConfiguration
     {

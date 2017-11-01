@@ -1,12 +1,12 @@
-﻿using GestaoBuilder.CoreShared.Bases;
-using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Shared.Data.System.Domain;
-using GestaoBuilder.Shared.Helpers;
+﻿using Modular.CoreShared.Bases;
+using Modular.Shared.Contracts;
+using Modular.Shared.Data.System.Domain;
+using Modular.Shared.Helpers;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json.Serialization;
 
-namespace GestaoBuilder.CoreShared
+namespace Modular.CoreShared
 {
     public class Entrada : BaseJsonParse, IEntrada
     {

@@ -1,12 +1,12 @@
-﻿using GestaoBuilder.CoreShared.Contracts;
-using GestaoBuilder.CoreShared.Model;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.System.Domain;
+﻿using Modular.CoreShared.Contracts;
+using Modular.CoreShared.Model;
+using Modular.Shared.Data;
+using Modular.Shared.Data.System.Domain;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace GestaoBuilder.Core.Contracts
+namespace Modular.Core.Contracts
 {
     public interface ICoreSupportService : ICoreSupport
     {

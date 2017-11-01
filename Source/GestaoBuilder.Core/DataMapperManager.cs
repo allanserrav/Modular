@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.Business;
+using Modular.Shared.Data;
+using Modular.Shared.Data.Business;
 
-namespace GestaoBuilder.Core
+namespace Modular.Core
 {
     public sealed class DataMapperManager : IMapperManager
     {

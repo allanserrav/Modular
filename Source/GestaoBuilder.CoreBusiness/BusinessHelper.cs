@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using FluentValidation.Results;
-using GestaoBuilder.Shared.Contracts;
+using Modular.Shared.Contracts;
 
-namespace GestaoBuilder.CoreBusiness
+namespace Modular.CoreBusiness
 {
     public static class BusinessHelper
     {

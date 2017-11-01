@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.Business;
+using Modular.Shared.Data;
+using Modular.Shared.Data.Business;
 using Newtonsoft.Json.Serialization;
 
-namespace GestaoBuilder.CoreShared
+namespace Modular.CoreShared
 {
     public class CoreContractResolver : DefaultContractResolver
     {

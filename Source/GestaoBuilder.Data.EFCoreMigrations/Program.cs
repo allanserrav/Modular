@@ -1,16 +1,16 @@
-﻿using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Data.EFCore;
-using GestaoBuilder.Shared;
+﻿using Modular.Shared.Contracts;
+using Modular.Data.EFCore;
+using Modular.Shared;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.System;
+using Modular.Shared.Data;
+using Modular.Shared.Data.System;
 
-namespace GestaoBuilder.Data.EFCoreMigrations
+namespace Modular.Data.EFCoreMigrations
 {
     class Program
     {

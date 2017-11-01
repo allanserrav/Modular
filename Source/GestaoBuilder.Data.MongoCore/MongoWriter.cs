@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using GestaoBuilder.CoreShared.Contracts;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.Business;
-using GestaoBuilder.Shared.Helpers;
+using Modular.CoreShared.Contracts;
+using Modular.Shared.Data;
+using Modular.Shared.Data.Business;
+using Modular.Shared.Helpers;
 using MongoDB.Bson;
 using MongoDB.Driver;
 using Newtonsoft.Json.Linq;
 
-namespace GestaoBuilder.Data.MongoCore
+namespace Modular.Data.MongoCore
 {
     public class MongoWriter : BaseMongo, IDataBisWrite
     {

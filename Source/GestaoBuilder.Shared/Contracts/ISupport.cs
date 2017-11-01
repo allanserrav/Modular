@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.Business;
-using GestaoBuilder.Shared.Data.Business.Repositories;
+using Modular.Shared.Data;
+using Modular.Shared.Data.Business;
+using Modular.Shared.Data.Business.Repositories;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace GestaoBuilder.Shared.Contracts
+namespace Modular.Shared.Contracts
 {
     public interface ISupport
     {

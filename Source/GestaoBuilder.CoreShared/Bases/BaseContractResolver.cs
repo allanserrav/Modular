@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json.Serialization;
 
-namespace GestaoBuilder.CoreShared.Bases
+namespace Modular.CoreShared.Bases
 {
     public abstract class BaseContractResolver : DefaultContractResolver
     {

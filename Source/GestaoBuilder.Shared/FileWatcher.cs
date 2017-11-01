@@ -6,7 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GestaoBuilder.Shared
+namespace Modular.Shared
 {
     public class FileWatcherEventArgs : EventArgs
     {

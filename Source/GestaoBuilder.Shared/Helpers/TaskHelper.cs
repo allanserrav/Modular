@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
-using GestaoBuilder.Shared.Contracts;
+using Modular.Shared.Contracts;
 
-namespace GestaoBuilder.Shared.Helpers
+namespace Modular.Shared.Helpers
 {
     public static class TaskHelper
     {

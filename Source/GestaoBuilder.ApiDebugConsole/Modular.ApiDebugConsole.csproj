@@ -14,9 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GestaoBuilder.Core\GestaoBuilder.Core.csproj" />
-    <ProjectReference Include="..\GestaoBuilder.Data.EFCore\GestaoBuilder.Data.EFCore.csproj" />
-    <ProjectReference Include="..\GestaoBuilder.Data.MongoCore\GestaoBuilder.Data.MongoCore.csproj" />
+    <ProjectReference Include="..\GestaoBuilder.Core\Modular.Core.csproj" />
+    <ProjectReference Include="..\GestaoBuilder.Data.EFCore\Modular.Data.EFCore.csproj" />
+    <ProjectReference Include="..\GestaoBuilder.Data.MongoCore\Modular.Data.MongoCore.csproj" />
   </ItemGroup>
 
 </Project>

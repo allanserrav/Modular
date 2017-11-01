@@ -1,10 +1,10 @@
-﻿using GestaoBuilder.Shared.Contracts;
+﻿using Modular.Shared.Contracts;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace GestaoBuilder.Shared.Bases
+namespace Modular.Shared.Bases
 {
     public abstract class BaseConfiguration : IConfigurationSystem
     {

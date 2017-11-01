@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Dynamic;
 using System.Linq;
 using System.Linq.Expressions;
-using GestaoBuilder.Shared.Helpers;
+using Modular.Shared.Helpers;
 
-namespace GestaoBuilder.Shared.Data
+namespace Modular.Shared.Data
 {
     public interface IDataModificada
     {

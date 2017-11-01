@@ -1,4 +1,4 @@
-﻿using GestaoBuilder.Shared.Bases;
+﻿using Modular.Shared.Bases;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using System;

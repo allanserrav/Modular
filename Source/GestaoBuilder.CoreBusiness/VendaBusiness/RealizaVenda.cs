@@ -1,11 +1,11 @@
 ﻿using System.Linq;
-using GestaoBuilder.Shared;
-using GestaoBuilder.Shared.Atributos;
-using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Shared.Data.Business.Domain;
-using GestaoBuilder.Shared.Data.System.Domain;
+using Modular.Shared;
+using Modular.Shared.Atributos;
+using Modular.Shared.Contracts;
+using Modular.Shared.Data.Business.Domain;
+using Modular.Shared.Data.System.Domain;
 
-namespace GestaoBuilder.CoreBusiness.VendaBusiness
+namespace Modular.CoreBusiness.VendaBusiness
 {
     [Modulo(Codigo = BusinessModuloCodigo.RealizaVenda, Nome = "Realizar a venda dos produtos",
             AgrupamentoCodigo = BusinessModuloCodigo.AgrupamentoRealizaVenda, AgrupamentoOrdem = 2, PrincipalNoAgrupamento = true)]

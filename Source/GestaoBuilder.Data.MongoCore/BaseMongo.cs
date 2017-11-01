@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
-using GestaoBuilder.CoreShared.Contracts;
-using GestaoBuilder.Shared;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.Business;
-using GestaoBuilder.Shared.Data.System.Domain;
-using GestaoBuilder.Shared.Helpers;
+using Modular.CoreShared.Contracts;
+using Modular.Shared;
+using Modular.Shared.Data;
+using Modular.Shared.Data.Business;
+using Modular.Shared.Data.System.Domain;
+using Modular.Shared.Helpers;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
 using MongoDB.Bson.Serialization.IdGenerators;
 using MongoDB.Bson.Serialization.Serializers;
 using MongoDB.Driver;
 
-namespace GestaoBuilder.Data.MongoCore
+namespace Modular.Data.MongoCore
 {
     public abstract class BaseMongo
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GestaoBuilder.Shared.Data
+namespace Modular.Shared.Data
 {
     public interface IMapper
     {

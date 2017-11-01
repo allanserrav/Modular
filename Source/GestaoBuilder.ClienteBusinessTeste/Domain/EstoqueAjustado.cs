@@ -1,6 +1,6 @@
-﻿using GestaoBuilder.Shared.Data.Business.Domain;
+﻿using Modular.Shared.Data.Business.Domain;
 
-namespace GestaoBuilder.ClienteBusinessTeste.Domain
+namespace Modular.ClienteBusinessTeste.Domain
 {
     public class EstoqueAjustado : Estoque
     {

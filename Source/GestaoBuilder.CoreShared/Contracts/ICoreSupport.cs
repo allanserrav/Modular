@@ -1,7 +1,7 @@
-﻿using GestaoBuilder.CoreShared.Model;
-using GestaoBuilder.Shared.Data;
+﻿using Modular.CoreShared.Model;
+using Modular.Shared.Data;
 
-namespace GestaoBuilder.CoreShared.Contracts
+namespace Modular.CoreShared.Contracts
 {
     public interface ICoreSupport
     {

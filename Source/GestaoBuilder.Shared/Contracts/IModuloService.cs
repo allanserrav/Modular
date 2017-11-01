@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using GestaoBuilder.Shared.Data.Business;
+using Modular.Shared.Data.Business;
 
-namespace GestaoBuilder.Shared.Contracts
+namespace Modular.Shared.Contracts
 {
     public interface IModuloService
     {

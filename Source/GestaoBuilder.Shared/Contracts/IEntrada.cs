@@ -1,10 +1,10 @@
-﻿using GestaoBuilder.Shared;
-using GestaoBuilder.Shared.Data.System.Domain;
+﻿using Modular.Shared;
+using Modular.Shared.Data.System.Domain;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json.Serialization;
 
-namespace GestaoBuilder.Shared.Contracts
+namespace Modular.Shared.Contracts
 {
     public enum TipoOperacaoEnum
     {

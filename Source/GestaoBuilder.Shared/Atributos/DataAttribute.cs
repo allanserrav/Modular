@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GestaoBuilder.Shared.Atributos
+namespace Modular.Shared.Atributos
 {
     [AttributeUsage(AttributeTargets.Class)]
     public class DataAttribute : Attribute

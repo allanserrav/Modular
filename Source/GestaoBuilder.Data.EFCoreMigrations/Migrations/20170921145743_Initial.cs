@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace GestaoBuilder.Data.EFCoreMigrations.Migrations
+namespace Modular.Data.EFCoreMigrations.Migrations
 {
     public partial class Initial : Migration
     {

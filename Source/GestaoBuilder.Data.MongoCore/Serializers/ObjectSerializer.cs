@@ -1,13 +1,13 @@
 ﻿using System;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.Business;
-using GestaoBuilder.Shared.Helpers;
+using Modular.Shared.Data;
+using Modular.Shared.Data.Business;
+using Modular.Shared.Helpers;
 using MongoDB.Bson;
 using MongoDB.Bson.IO;
 using MongoDB.Bson.Serialization;
 using MongoDB.Bson.Serialization.Serializers;
 
-namespace GestaoBuilder.Data.MongoCore.Serializers
+namespace Modular.Data.MongoCore.Serializers
 {
     public class ObjectSerializer<TValue> : SealedClassSerializerBase<TValue>
         where TValue : class, IDataBisKey

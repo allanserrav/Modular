@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Text;
-using GestaoBuilder.CoreShared.Model;
-using GestaoBuilder.Shared;
-using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.Business;
-using GestaoBuilder.Shared.Data.System.Domain;
+using Modular.CoreShared.Model;
+using Modular.Shared;
+using Modular.Shared.Contracts;
+using Modular.Shared.Data;
+using Modular.Shared.Data.Business;
+using Modular.Shared.Data.System.Domain;
 using Microsoft.Extensions.Logging;
 using VroomJs;
 
-namespace GestaoBuilder.Core.Javascript
+namespace Modular.Core.Javascript
 {
     public class JavascriptEngine : IModuloContext
     {

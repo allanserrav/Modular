@@ -1,18 +1,18 @@
-﻿using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Shared;
-using GestaoBuilder.Shared.Atributos;
+﻿using Modular.Shared.Contracts;
+using Modular.Shared;
+using Modular.Shared.Atributos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using GestaoBuilder.CoreShared.Model;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.System;
-using GestaoBuilder.Shared.Helpers;
+using Modular.CoreShared.Model;
+using Modular.Shared.Data;
+using Modular.Shared.Data.System;
+using Modular.Shared.Helpers;
 using Microsoft.Extensions.Options;
 
-namespace GestaoBuilder.BackgroundService.Services
+namespace Modular.BackgroundService.Services
 {
     public class AtualizacaoAssemblyModuloEventArgs : EventArgs
     {

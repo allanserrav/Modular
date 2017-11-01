@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace GestaoBuilder.Shared.Atributos
+namespace Modular.Shared.Atributos
 {
     [AttributeUsage(AttributeTargets.Class)]
     public class ModuloAttribute : Attribute

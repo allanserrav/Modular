@@ -4,11 +4,11 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using System.Text;
-using GestaoBuilder.Data.EFCore;
+using Modular.Data.EFCore;
 using Microsoft.Extensions.Configuration;
 using System.IO;
 
-namespace GestaoBuilder.Data.EFCoreMigrations
+namespace Modular.Data.EFCoreMigrations
 {
     public class Startup
     {

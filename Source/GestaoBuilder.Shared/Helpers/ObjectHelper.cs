@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace GestaoBuilder.Shared.Helpers
+namespace Modular.Shared.Helpers
 {
     public static class ObjectHelper
     {

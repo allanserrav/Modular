@@ -1,10 +1,10 @@
-﻿using GestaoBuilder.Shared;
+﻿using Modular.Shared;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using GestaoBuilder.Shared.Data.System.Domain;
+using Modular.Shared.Data.System.Domain;
 
-namespace GestaoBuilder.Shared.Contracts
+namespace Modular.Shared.Contracts
 {
     public interface IScriptResource
     {

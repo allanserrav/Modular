@@ -1,7 +1,7 @@
 ﻿using System.Linq;
-using GestaoBuilder.Shared.Data.System;
+using Modular.Shared.Data.System;
 
-namespace GestaoBuilder.Shared.Data
+namespace Modular.Shared.Data
 {
     public interface IDataRead<in TDataKey>
     {

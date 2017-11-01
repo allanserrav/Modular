@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Linq;
-using GestaoBuilder.CoreShared.Model;
+using Modular.CoreShared.Model;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.System;
+using Modular.Shared.Data;
+using Modular.Shared.Data.System;
 
-namespace GestaoBuilder.Data.EFCore
+namespace Modular.Data.EFCore
 {
     public class EFDataContext : DbContext, IDataWrite<IDataSysKey>, IDataRead<IDataSysKey>
     {

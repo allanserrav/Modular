@@ -1,8 +1,8 @@
-﻿using GestaoBuilder.CoreShared.Bases;
-using GestaoBuilder.Shared;
-using GestaoBuilder.Shared.Data.System.Domain;
+﻿using Modular.CoreShared.Bases;
+using Modular.Shared;
+using Modular.Shared.Data.System.Domain;
 
-namespace GestaoBuilder.CoreShared.Model
+namespace Modular.CoreShared.Model
 {
     public class Pagina : BaseEntidade, IPagina
     {

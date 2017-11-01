@@ -3,10 +3,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
-using GestaoBuilder.Data.EFCore;
-using GestaoBuilder.Shared;
+using Modular.Data.EFCore;
+using Modular.Shared;
 
-namespace GestaoBuilder.Data.EFCoreMigrations.Migrations
+namespace Modular.Data.EFCoreMigrations.Migrations
 {
     [DbContext(typeof(EFDataContext))]
     partial class EFDataContextModelSnapshot : ModelSnapshot

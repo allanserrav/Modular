@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using GestaoBuilder.CoreShared.Bases;
-using GestaoBuilder.Shared.Contracts;
+using Modular.CoreShared.Bases;
+using Modular.Shared.Contracts;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json.Serialization;
 
-namespace GestaoBuilder.CoreShared
+namespace Modular.CoreShared
 {
     public class Resultado : Resultado<Resultado>
     {

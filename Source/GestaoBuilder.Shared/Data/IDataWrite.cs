@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace GestaoBuilder.Shared.Data
+namespace Modular.Shared.Data
 {
     public interface IDataWrite<in TDataKey>
         where TDataKey : IDataKey

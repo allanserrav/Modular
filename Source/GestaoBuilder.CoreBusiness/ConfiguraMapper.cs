@@ -1,13 +1,13 @@
-﻿using GestaoBuilder.Shared;
-using GestaoBuilder.Shared.Atributos;
-using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.Business;
-using GestaoBuilder.Shared.Data.Business.Domain;
-using GestaoBuilder.Shared.Data.System.Domain;
+﻿using Modular.Shared;
+using Modular.Shared.Atributos;
+using Modular.Shared.Contracts;
+using Modular.Shared.Data;
+using Modular.Shared.Data.Business;
+using Modular.Shared.Data.Business.Domain;
+using Modular.Shared.Data.System.Domain;
 using Newtonsoft.Json;
 
-namespace GestaoBuilder.CoreBusiness
+namespace Modular.CoreBusiness
 {
     [Modulo(Codigo = BusinessModuloCodigo.ConfiguraMapper, Nome = "Configuraçào dos mapeamentos de data",
                 AgrupamentoCodigo = BusinessModuloCodigo.AgrupamentoMapeamento, AgrupamentoOrdem = 1, PrincipalNoAgrupamento = true)]

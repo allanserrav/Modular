@@ -1,11 +1,11 @@
-﻿using GestaoBuilder.Shared.Contracts;
+﻿using Modular.Shared.Contracts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using System;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.System;
+using Modular.Shared.Data;
+using Modular.Shared.Data.System;
 
-namespace GestaoBuilder.Data.EFCore
+namespace Modular.Data.EFCore
 {
     public class EFUnitOfWork : IUnitOfWork
     {

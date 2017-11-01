@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GestaoBuilder.Data.EFCore\GestaoBuilder.Data.EFCore.csproj" />
+    <ProjectReference Include="..\GestaoBuilder.Data.EFCore\Modular.Data.EFCore.csproj" />
   </ItemGroup>
 
   <ItemGroup>

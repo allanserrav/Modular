@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using GestaoBuilder.Shared.Contracts;
+using Modular.Shared.Contracts;
 
-namespace GestaoBuilder.CoreShared.Contracts
+namespace Modular.CoreShared.Contracts
 {
     public interface IModuloServiceCore : IModuloService
     {

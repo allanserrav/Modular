@@ -1,7 +1,7 @@
 ﻿using System;
-using GestaoBuilder.Shared.Data.System;
+using Modular.Shared.Data.System;
 
-namespace GestaoBuilder.CoreShared.Bases
+namespace Modular.CoreShared.Bases
 {
     public class BaseEntidade : IDataSys
     {

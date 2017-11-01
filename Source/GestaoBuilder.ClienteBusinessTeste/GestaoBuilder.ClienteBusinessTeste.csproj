@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GestaoBuilder.Shared\GestaoBuilder.Shared.csproj" />
+    <ProjectReference Include="..\GestaoBuilder.Shared\Modular.Shared.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using GestaoBuilder.CoreShared.Model;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.System;
+using Modular.CoreShared.Model;
+using Modular.Shared.Data;
+using Modular.Shared.Data.System;
 
-namespace GestaoBuilder.Core
+namespace Modular.Core
 {
     public class ModuloReader
     {

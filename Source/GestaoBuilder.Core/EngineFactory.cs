@@ -1,13 +1,13 @@
 ﻿using System;
 using System.IO;
-using GestaoBuilder.Core.Javascript;
-using GestaoBuilder.CoreShared.Model;
-using GestaoBuilder.Shared;
-using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Shared.Data.System.Domain;
-using GestaoBuilder.Shared.Helpers;
+using Modular.Core.Javascript;
+using Modular.CoreShared.Model;
+using Modular.Shared;
+using Modular.Shared.Contracts;
+using Modular.Shared.Data.System.Domain;
+using Modular.Shared.Helpers;
 
-namespace GestaoBuilder.Core
+namespace Modular.Core
 {
     public static class EngineFactory
     {

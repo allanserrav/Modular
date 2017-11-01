@@ -1,20 +1,20 @@
-﻿using GestaoBuilder.BackgroundService.Services;
-using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Data.EFCore;
+﻿using Modular.BackgroundService.Services;
+using Modular.Shared.Contracts;
+using Modular.Data.EFCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.IO;
-using GestaoBuilder.Shared;
+using Modular.Shared;
 using System.Collections.Generic;
 using System.Linq;
-using GestaoBuilder.CoreShared.Model;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.System;
+using Modular.CoreShared.Model;
+using Modular.Shared.Data;
+using Modular.Shared.Data.System;
 using Microsoft.Extensions.Options;
 
-namespace GestaoBuilder.BackgroundService
+namespace Modular.BackgroundService
 {
     class Program
     {

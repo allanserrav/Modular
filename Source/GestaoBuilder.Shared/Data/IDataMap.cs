@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
-using GestaoBuilder.Shared.Data.Business;
+using Modular.Shared.Data.Business;
 
-namespace GestaoBuilder.Shared.Data
+namespace Modular.Shared.Data
 {
     public interface IDataMap
     {

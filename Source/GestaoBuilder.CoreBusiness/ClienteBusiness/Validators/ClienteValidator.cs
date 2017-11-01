@@ -1,8 +1,8 @@
 ﻿using System;
 using FluentValidation;
-using GestaoBuilder.Shared.Data.Business.Domain;
+using Modular.Shared.Data.Business.Domain;
 
-namespace GestaoBuilder.CoreBusiness.ClienteBusiness.Validators
+namespace Modular.CoreBusiness.ClienteBusiness.Validators
 {
     public class ClienteValidator : AbstractValidator<Cliente>
     {

@@ -1,6 +1,6 @@
-﻿using GestaoBuilder.Shared.Data.Business.Domain;
+﻿using Modular.Shared.Data.Business.Domain;
 
-namespace GestaoBuilder.Shared.Data.Business.Repositories
+namespace Modular.Shared.Data.Business.Repositories
 {
     public interface IProdutoRepository : IRepository<Produto>
     {

@@ -1,4 +1,4 @@
-﻿namespace GestaoBuilder.Shared.Data.System
+﻿namespace Modular.Shared.Data.System
 {
     public interface IDataSysKey : IDataKey
     {

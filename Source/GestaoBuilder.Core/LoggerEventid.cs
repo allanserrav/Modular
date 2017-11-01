@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace GestaoBuilder.Core
+namespace Modular.Core
 {
     public static class LoggerEventId
     {

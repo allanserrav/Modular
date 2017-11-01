@@ -1,9 +1,9 @@
-﻿using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Shared;
+﻿using Modular.Shared.Contracts;
+using Modular.Shared;
 using System.IO;
-using GestaoBuilder.CoreShared.Model;
-using GestaoBuilder.Shared.Data.System.Domain;
-using GestaoBuilder.Shared.Helpers;
+using Modular.CoreShared.Model;
+using Modular.Shared.Data.System.Domain;
+using Modular.Shared.Helpers;
 
 namespace GestaoBuilder_WebCore
 {

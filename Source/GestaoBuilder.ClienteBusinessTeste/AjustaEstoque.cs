@@ -1,16 +1,16 @@
 ﻿using System.Data.Common;
-using GestaoBuilder.ClienteBusinessTeste.Domain;
-using GestaoBuilder.Shared;
-using GestaoBuilder.Shared.Atributos;
-using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.Business;
-using GestaoBuilder.Shared.Data.Business.Domain;
-using GestaoBuilder.Shared.Data.System.Domain;
+using Modular.ClienteBusinessTeste.Domain;
+using Modular.Shared;
+using Modular.Shared.Atributos;
+using Modular.Shared.Contracts;
+using Modular.Shared.Data;
+using Modular.Shared.Data.Business;
+using Modular.Shared.Data.Business.Domain;
+using Modular.Shared.Data.System.Domain;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
-namespace GestaoBuilder.ClienteBusinessTeste
+namespace Modular.ClienteBusinessTeste
 {
     [ModuloInfo(Codigo = "ABC001", Nome = "Ajustar o estoque")]
     [ModuloCategoria(IsCategoriaNamespace = true)]

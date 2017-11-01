@@ -259,3 +259,5 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/Assemblies/netstandard2.0/GestaoBuilder.CoreBusiness.deps.json
+/Assemblies/netstandard2.0

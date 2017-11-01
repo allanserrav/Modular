@@ -1,11 +1,11 @@
-﻿using GestaoBuilder.CoreBusiness.VendaBusiness.Validators;
-using GestaoBuilder.Shared;
-using GestaoBuilder.Shared.Atributos;
-using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Shared.Data.Business.Domain;
-using GestaoBuilder.Shared.Data.System.Domain;
+﻿using Modular.CoreBusiness.VendaBusiness.Validators;
+using Modular.Shared;
+using Modular.Shared.Atributos;
+using Modular.Shared.Contracts;
+using Modular.Shared.Data.Business.Domain;
+using Modular.Shared.Data.System.Domain;
 
-namespace GestaoBuilder.CoreBusiness.VendaBusiness
+namespace Modular.CoreBusiness.VendaBusiness
 {
     [Modulo(Codigo = BusinessModuloCodigo.EntradaVenda, Nome = "Entrada e validação dos dados",
         AgrupamentoCodigo = BusinessModuloCodigo.AgrupamentoRealizaVenda, AgrupamentoOrdem = 1)]

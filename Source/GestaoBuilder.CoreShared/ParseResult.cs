@@ -1,6 +1,6 @@
-﻿using GestaoBuilder.Shared.Contracts;
+﻿using Modular.Shared.Contracts;
 
-namespace GestaoBuilder.CoreShared
+namespace Modular.CoreShared
 {
     public class ParseResult<T> : IParseResult<T>
     {

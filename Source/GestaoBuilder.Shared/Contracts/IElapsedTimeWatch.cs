@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GestaoBuilder.Shared.Contracts
+namespace Modular.Shared.Contracts
 {
     public interface IElapsedTimeWatch
     {

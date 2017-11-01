@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
-using GestaoBuilder.Shared.Data.Business.Domain;
+using Modular.Shared.Data.Business.Domain;
 
-namespace GestaoBuilder.CoreBusiness.VendaBusiness.Validators
+namespace Modular.CoreBusiness.VendaBusiness.Validators
 {
     public class VendaValidator : AbstractValidator<Venda>
     {

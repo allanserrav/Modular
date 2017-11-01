@@ -1,11 +1,11 @@
 ﻿using System.Linq;
-using GestaoBuilder.CoreBusiness.ProdutoBusiness.Validators;
-using GestaoBuilder.Shared;
-using GestaoBuilder.Shared.Atributos;
-using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Shared.Data.Business.Domain;
+using Modular.CoreBusiness.ProdutoBusiness.Validators;
+using Modular.Shared;
+using Modular.Shared.Atributos;
+using Modular.Shared.Contracts;
+using Modular.Shared.Data.Business.Domain;
 
-namespace GestaoBuilder.CoreBusiness.ProdutoBusiness
+namespace Modular.CoreBusiness.ProdutoBusiness
 {
     [Modulo(Codigo = BusinessModuloCodigo.ValidacaoProduto, Nome = "Validação do produto")]
     [ModuloCategoria(IsCategoriaNamespace = true)]

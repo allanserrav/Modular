@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using GestaoBuilder.CoreShared.Model;
-using GestaoBuilder.Shared;
-using GestaoBuilder.Shared.Contracts;
+using Modular.CoreShared.Model;
+using Modular.Shared;
+using Modular.Shared.Contracts;
 using Microsoft.Extensions.Logging;
 
-namespace GestaoBuilder.Core
+namespace Modular.Core
 {
     public class ModuloPlanManager
     {

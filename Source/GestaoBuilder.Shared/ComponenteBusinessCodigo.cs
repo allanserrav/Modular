@@ -1,4 +1,4 @@
-﻿namespace GestaoBuilder.Shared
+﻿namespace Modular.Shared
 {
     public class ComponenteBusinessCodigo
     {

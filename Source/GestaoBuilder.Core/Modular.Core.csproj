@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GestaoBuilder.CoreShared\GestaoBuilder.CoreShared.csproj" />
-    <ProjectReference Include="..\GestaoBuilder.Shared\GestaoBuilder.Shared.csproj" />
+    <ProjectReference Include="..\GestaoBuilder.CoreShared\Modular.CoreShared.csproj" />
+    <ProjectReference Include="..\GestaoBuilder.Shared\Modular.Shared.csproj" />
   </ItemGroup>
 
 </Project>

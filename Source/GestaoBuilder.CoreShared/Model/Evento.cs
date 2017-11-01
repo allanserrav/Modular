@@ -1,7 +1,7 @@
-﻿using GestaoBuilder.CoreShared.Bases;
-using GestaoBuilder.Shared;
+﻿using Modular.CoreShared.Bases;
+using Modular.Shared;
 
-namespace GestaoBuilder.CoreShared.Model
+namespace Modular.CoreShared.Model
 {
     public enum EventoType
     {

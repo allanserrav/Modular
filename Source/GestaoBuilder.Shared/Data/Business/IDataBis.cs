@@ -1,4 +1,4 @@
-﻿namespace GestaoBuilder.Shared.Data.Business
+﻿namespace Modular.Shared.Data.Business
 {
     public interface IDataBis : IBaseData, IDataBisKey
     {

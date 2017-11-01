@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 using FluentValidation;
-using GestaoBuilder.CoreBusiness.ClienteBusiness.Entries;
+using Modular.CoreBusiness.ClienteBusiness.Entries;
 
-namespace GestaoBuilder.CoreBusiness.ClienteBusiness.Validators
+namespace Modular.CoreBusiness.ClienteBusiness.Validators
 {
     public class ClienteEntryValidator : AbstractValidator<ClienteEntry>
     {

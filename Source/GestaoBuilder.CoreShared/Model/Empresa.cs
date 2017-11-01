@@ -1,8 +1,8 @@
 ﻿using System;
-using GestaoBuilder.Shared.Data.System;
-using GestaoBuilder.Shared.Data.System.Domain;
+using Modular.Shared.Data.System;
+using Modular.Shared.Data.System.Domain;
 
-namespace GestaoBuilder.CoreShared.Model
+namespace Modular.CoreShared.Model
 {
     public class Empresa : IEmpresa
     {

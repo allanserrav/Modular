@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>Modular.CoreShared</AssemblyName>
+    <RootNamespace>Modular.CoreShared</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GestaoBuilder.Shared\Modular.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

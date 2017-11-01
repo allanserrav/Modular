@@ -12,14 +12,13 @@
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="1.1.2" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="1.1.2" />
   </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\GestaoBuilder.Data.EFCore\GestaoBuilder.Data.EFCore.csproj" />
-  </ItemGroup>
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet">
       <Version>1.0.0-*</Version>
     </DotNetCliToolReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GestaoBuilder.Data.EFCore\Modular.Data.EFCore.csproj" />
   </ItemGroup>
 
   <ItemGroup>

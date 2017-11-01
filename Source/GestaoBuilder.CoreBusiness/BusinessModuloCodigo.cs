@@ -1,4 +1,4 @@
-﻿namespace GestaoBuilder.CoreBusiness
+﻿namespace Modular.CoreBusiness
 {
     public class BusinessModuloCodigo
     {

@@ -1,8 +1,8 @@
 ﻿using System;
-using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Shared.Data.System.Domain;
+using Modular.Shared.Contracts;
+using Modular.Shared.Data.System.Domain;
 
-namespace GestaoBuilder.ApiDebugConsole
+namespace Modular.ApiDebugConsole
 {
     public class MockScriptResource : IScriptResource
     {

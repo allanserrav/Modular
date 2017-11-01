@@ -1,4 +1,4 @@
-﻿namespace GestaoBuilder.Shared.Data.System.Domain
+﻿namespace Modular.Shared.Data.System.Domain
 {
     public interface IUsuario : IDataSys
     {

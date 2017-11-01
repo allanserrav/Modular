@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using GestaoBuilder.Shared.Atributos;
-using GestaoBuilder.Shared.Helpers;
+using Modular.Shared.Atributos;
+using Modular.Shared.Helpers;
 
-namespace GestaoBuilder.Shared.Data
+namespace Modular.Shared.Data
 {
     public static class DataHelper
     {

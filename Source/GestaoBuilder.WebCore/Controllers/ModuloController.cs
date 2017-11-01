@@ -4,12 +4,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
-using GestaoBuilder.CoreShared.Contracts;
-using GestaoBuilder.CoreShared.Model;
-using GestaoBuilder.CoreShared;
-using GestaoBuilder.Shared.Contracts;
-using GestaoBuilder.Core;
-using GestaoBuilder.Core.Contracts;
+using Modular.CoreShared.Contracts;
+using Modular.CoreShared.Model;
+using Modular.CoreShared;
+using Modular.Shared.Contracts;
+using Modular.Core;
+using Modular.Core.Contracts;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 

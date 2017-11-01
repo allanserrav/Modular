@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using GestaoBuilder.Shared;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.Business;
+using Modular.Shared;
+using Modular.Shared.Data;
+using Modular.Shared.Data.Business;
 
-namespace GestaoBuilder.CoreShared.Bases
+namespace Modular.CoreShared.Bases
 {
     public class BaseRepository<TBis> : IRepository<TBis>
         where TBis : class, IDataBis

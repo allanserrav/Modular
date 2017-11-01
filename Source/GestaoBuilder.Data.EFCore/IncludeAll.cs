@@ -1,14 +1,14 @@
-﻿using GestaoBuilder.Shared;
+﻿using Modular.Shared;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using GestaoBuilder.CoreShared.Model;
-using GestaoBuilder.Shared.Data;
-using GestaoBuilder.Shared.Data.System;
+using Modular.CoreShared.Model;
+using Modular.Shared.Data;
+using Modular.Shared.Data.System;
 
-namespace GestaoBuilder.Data.EFCore
+namespace Modular.Data.EFCore
 {
     public static class IncludeAll
     {
