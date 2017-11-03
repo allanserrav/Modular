@@ -18,7 +18,10 @@
 
   <ItemGroup>
     <!-- Files not to publish (note that the 'dist' subfolders are re-added below) -->
+    <Compile Remove="ClientApp\app\components\shared\model\**" />
     <Content Remove="ClientApp\**" />
+    <EmbeddedResource Remove="ClientApp\app\components\shared\model\**" />
+    <None Remove="ClientApp\app\components\shared\model\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,8 +30,8 @@
     <None Remove="ClientApp\app\components\produto\produto-form.component.ts" />
     <None Remove="ClientApp\app\components\shared\action-item.component.ts" />
     <None Remove="ClientApp\app\components\shared\header\header.component.ts" />
-    <None Remove="ClientApp\app\components\shared\model\pagina.ts" />
     <None Remove="ClientApp\app\components\shared\modulo.service.ts" />
+    <None Remove="ClientApp\app\components\shared\pagina.decorator.ts" />
     <None Remove="ClientApp\app\components\shared\produto.service.ts" />
     <None Remove="ClientApp\app\components\shared\windowref.service.ts" />
     <None Remove="ClientApp\app\components\venda\venda-menu.component.ts" />
@@ -52,6 +55,7 @@
     <TypeScriptCompile Include="ClientApp\app\components\shared\action-item.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\shared\header\header.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\shared\modulo.service.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\shared\pagina.decorator.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\shared\produto.service.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\shared\windowref.service.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\venda\venda-menu.component.ts" />
@@ -59,7 +63,6 @@
 
   <ItemGroup>
     <Folder Include="ClientApp\app\components\produto\categoria-produto\" />
-    <Folder Include="ClientApp\app\components\shared\model\" />
   </ItemGroup>
 
   <ItemGroup>
