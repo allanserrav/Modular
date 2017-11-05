@@ -47,6 +47,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6B6E2762
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modular.WebCore", "Modular.WebCore\Modular.WebCore.csproj", "{1C53EAD2-6DCD-4100-8F32-F84100E40B0B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AngularDefault", "AngularDefault", "{5FDAEF65-0772-4A91-9AB8-172FF39D1BB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "produto", "produto", "{3AF570AE-D045-4198-A2E4-60F25B813781}"
+	ProjectSection(SolutionItems) = preProject
+		Modular.WebCore\ClientApp\app\business\produto\produto-form.component.html = Modular.WebCore\ClientApp\app\business\produto\produto-form.component.html
+		Modular.WebCore\ClientApp\app\business\produto\produto-form.component.ts = Modular.WebCore\ClientApp\app\business\produto\produto-form.component.ts
+		Modular.WebCore\ClientApp\app\business\produto\produto-menu.component.ts = Modular.WebCore\ClientApp\app\business\produto\produto-menu.component.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "venda", "venda", "{0DE25272-83B4-4EE1-BC94-2D5692FAC59B}"
+	ProjectSection(SolutionItems) = preProject
+		Modular.WebCore\ClientApp\app\business\venda\venda-menu.component.ts = Modular.WebCore\ClientApp\app\business\venda\venda-menu.component.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "categoria-produto", "categoria-produto", "{D0783671-83EF-44F0-B070-F274612EA931}"
+	ProjectSection(SolutionItems) = preProject
+		Modular.WebCore\ClientApp\app\business\produto\categoria-produto\categoria-produto-form.component.html = Modular.WebCore\ClientApp\app\business\produto\categoria-produto\categoria-produto-form.component.html
+		Modular.WebCore\ClientApp\app\business\produto\categoria-produto\categoria-produto-form.component.ts = Modular.WebCore\ClientApp\app\business\produto\categoria-produto\categoria-produto-form.component.ts
+		Modular.WebCore\ClientApp\app\business\produto\categoria-produto\categoria-produto-list.component.html = Modular.WebCore\ClientApp\app\business\produto\categoria-produto\categoria-produto-list.component.html
+		Modular.WebCore\ClientApp\app\business\produto\categoria-produto\categoria-produto-list.component.ts = Modular.WebCore\ClientApp\app\business\produto\categoria-produto\categoria-produto-list.component.ts
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -120,6 +142,10 @@ Global
 		{F4F3E598-F271-40FB-A7AB-2B62CA7770CD} = {6B6E2762-419B-4C35-A6FC-580515DD5223}
 		{6B6E2762-419B-4C35-A6FC-580515DD5223} = {6E73282A-5C8B-46C3-AABD-1692D25715F7}
 		{1C53EAD2-6DCD-4100-8F32-F84100E40B0B} = {6E73282A-5C8B-46C3-AABD-1692D25715F7}
+		{5FDAEF65-0772-4A91-9AB8-172FF39D1BB2} = {804366F0-B37D-4307-891E-4D19B2FD9757}
+		{3AF570AE-D045-4198-A2E4-60F25B813781} = {5FDAEF65-0772-4A91-9AB8-172FF39D1BB2}
+		{0DE25272-83B4-4EE1-BC94-2D5692FAC59B} = {5FDAEF65-0772-4A91-9AB8-172FF39D1BB2}
+		{D0783671-83EF-44F0-B070-F274612EA931} = {3AF570AE-D045-4198-A2E4-60F25B813781}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48E696CA-CD51-4FF4-B4CC-8A942A46C153}
