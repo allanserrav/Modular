@@ -3,8 +3,8 @@ import { FormBuilder, FormGroup, FormControl, Validators } from '@angular/forms'
 import { Http, Response, Headers, RequestOptions } from '@angular/http';
 import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs/Observable';
-import { ModuloService } from '../shared/modulo.service';
-import { Pagina, Componente, Modulo, LISTAR_CATEGORIA, SALVAR_CATEGORIA } from '../shared/modulo.model';
+import { ModuloService } from '../../core/shared/modulo.service';
+import { Pagina, Componente, Modulo, LISTAR_CATEGORIA, SALVAR_CATEGORIA } from '../../core/shared/modulo.model';
 import 'rxjs/Rx';
 
 @Component({

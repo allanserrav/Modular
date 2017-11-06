@@ -1,7 +1,7 @@
 ﻿
 import { Component, Input, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { ModuloService } from '../../shared/modulo.service';
+import { ModuloService } from '../../../core/shared/modulo.service';
 
 @Component({
     selector: 'categoria-produto-list',

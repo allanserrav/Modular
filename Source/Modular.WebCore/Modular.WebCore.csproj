@@ -18,21 +18,22 @@
 
   <ItemGroup>
     <!-- Files not to publish (note that the 'dist' subfolders are re-added below) -->
-    <Compile Remove="ClientApp\app\components\shared\model\**" />
+    <Compile Remove="ClientApp\app\core\shared\model\**" />
     <Content Remove="ClientApp\**" />
-    <EmbeddedResource Remove="ClientApp\app\components\shared\model\**" />
-    <None Remove="ClientApp\app\components\shared\model\**" />
+    <EmbeddedResource Remove="ClientApp\app\core\shared\model\**" />
+    <None Remove="ClientApp\app\core\shared\model\**" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\app\app.module.core.ts" />
     <None Remove="ClientApp\app\app.module.material.ts" />
     <None Remove="ClientApp\app\app.module.routing.ts" />
-    <None Remove="ClientApp\app\components\shared\action-item.component.ts" />
-    <None Remove="ClientApp\app\components\shared\header\header.component.ts" />
-    <None Remove="ClientApp\app\components\shared\modulo.service.ts" />
-    <None Remove="ClientApp\app\components\shared\pagina.decorator.ts" />
-    <None Remove="ClientApp\app\components\shared\produto.service.ts" />
-    <None Remove="ClientApp\app\components\shared\windowref.service.ts" />
+    <None Remove="ClientApp\app\core\shared\action-item.component.ts" />
+    <None Remove="ClientApp\app\core\shared\header\header.component.ts" />
+    <None Remove="ClientApp\app\core\shared\modulo.service.ts" />
+    <None Remove="ClientApp\app\core\shared\pagina.decorator.ts" />
+    <None Remove="ClientApp\app\core\shared\produto.service.ts" />
+    <None Remove="ClientApp\app\core\shared\windowref.service.ts" />
   </ItemGroup>
 
   <ItemGroup>
@@ -45,22 +46,19 @@
   </ItemGroup>
 
   <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\app\app.module.core.ts" />
     <TypeScriptCompile Include="ClientApp\app\app.module.material.ts" />
     <TypeScriptCompile Include="ClientApp\app\app.module.routing.ts" />
     <TypeScriptCompile Include="ClientApp\app\business\produto\categoria-produto\categoria-produto-list.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\business\produto\categoria-produto\categoria-produto-form.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\business\produto\produto-form.component.ts" />
-    <TypeScriptCompile Include="ClientApp\app\components\shared\action-item.component.ts" />
-    <TypeScriptCompile Include="ClientApp\app\components\shared\header\header.component.ts" />
-    <TypeScriptCompile Include="ClientApp\app\components\shared\modulo.service.ts" />
-    <TypeScriptCompile Include="ClientApp\app\components\shared\pagina.decorator.ts" />
-    <TypeScriptCompile Include="ClientApp\app\components\shared\produto.service.ts" />
-    <TypeScriptCompile Include="ClientApp\app\components\shared\windowref.service.ts" />
+    <TypeScriptCompile Include="ClientApp\app\core\shared\action-item.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\core\shared\header\header.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\core\shared\modulo.service.ts" />
+    <TypeScriptCompile Include="ClientApp\app\core\shared\pagina.decorator.ts" />
+    <TypeScriptCompile Include="ClientApp\app\core\shared\produto.service.ts" />
+    <TypeScriptCompile Include="ClientApp\app\core\shared\windowref.service.ts" />
     <TypeScriptCompile Include="ClientApp\app\business\venda\venda-menu.component.ts" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="ClientApp\app\core\" />
   </ItemGroup>
 
   <ItemGroup>

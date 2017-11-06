@@ -3,7 +3,7 @@ import { FormBuilder, FormGroup, FormControl, Validators } from '@angular/forms'
 import { Http, Response, Headers, RequestOptions } from '@angular/http';
 import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs/Observable';
-import { ModuloService } from '../../shared/modulo.service';
+import { ModuloService } from '../../../core/shared/modulo.service';
 import 'rxjs/Rx';
 
 @Component({

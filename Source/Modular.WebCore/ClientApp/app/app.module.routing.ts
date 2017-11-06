@@ -1,4 +1,4 @@
-﻿import { Routes, RouterModule } from '@angular/router';
+﻿/*import { Routes, RouterModule } from '@angular/router';
 
 // Components
 import { HomeComponent } from './components/home/home.component';
@@ -15,7 +15,7 @@ export const routing = RouterModule.forRoot([
     { path: 'produto-menu', component: ProdutoMenuComponent },
     { path: 'produto-form/:id', component: ProdutoFormComponent },
     { path: '**', redirectTo: 'home' }
-]);
+]);*/
 
 
 /*
