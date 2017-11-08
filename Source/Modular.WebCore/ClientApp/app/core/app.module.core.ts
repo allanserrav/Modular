@@ -2,9 +2,9 @@
 import { Http, HttpModule, RequestOptions, XHRBackend } from '@angular/http';
 
 // Services
-import { HttpService } from './core/shared/http.service';
-import { WindowRefService } from './core/shared/windowref.service';
-import { ModuloService } from './core/shared/modulo.service';
+import { HttpService } from './service/http.service';
+import { WindowRefService } from './service/windowref.service';
+import { ModuloService } from './service/modulo.service';
 
 // Modules
 @NgModule({

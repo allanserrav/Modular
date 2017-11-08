@@ -28,11 +28,11 @@
     <None Remove="ClientApp\app\app.module.core.ts" />
     <None Remove="ClientApp\app\app.module.material.ts" />
     <None Remove="ClientApp\app\app.module.routing.ts" />
-    <None Remove="ClientApp\app\core\shared\action-item.component.ts" />
-    <None Remove="ClientApp\app\core\shared\header\header.component.ts" />
+    <None Remove="ClientApp\app\business\app.module.business.ts" />
+    <None Remove="ClientApp\app\core\header\header.component.ts" />
     <None Remove="ClientApp\app\core\shared\modulo.service.ts" />
+    <None Remove="ClientApp\app\core\shared\pagina.component.ts" />
     <None Remove="ClientApp\app\core\shared\pagina.decorator.ts" />
-    <None Remove="ClientApp\app\core\shared\produto.service.ts" />
     <None Remove="ClientApp\app\core\shared\windowref.service.ts" />
   </ItemGroup>
 
@@ -46,18 +46,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <TypeScriptCompile Include="ClientApp\app\app.module.core.ts" />
+    <TypeScriptCompile Include="ClientApp\app\business\app.module.business.ts" />
+    <TypeScriptCompile Include="ClientApp\app\core\app.module.core.ts" />
     <TypeScriptCompile Include="ClientApp\app\app.module.material.ts" />
     <TypeScriptCompile Include="ClientApp\app\app.module.routing.ts" />
     <TypeScriptCompile Include="ClientApp\app\business\produto\categoria-produto\categoria-produto-list.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\business\produto\categoria-produto\categoria-produto-form.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\business\produto\produto-form.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\core\shared\action-item.component.ts" />
-    <TypeScriptCompile Include="ClientApp\app\core\shared\header\header.component.ts" />
-    <TypeScriptCompile Include="ClientApp\app\core\shared\modulo.service.ts" />
+    <TypeScriptCompile Include="ClientApp\app\core\header\header.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\core\service\modulo.service.ts" />
+    <TypeScriptCompile Include="ClientApp\app\core\shared\pagina.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\core\shared\pagina.decorator.ts" />
-    <TypeScriptCompile Include="ClientApp\app\core\shared\produto.service.ts" />
-    <TypeScriptCompile Include="ClientApp\app\core\shared\windowref.service.ts" />
+    <TypeScriptCompile Include="ClientApp\app\core\service\windowref.service.ts" />
     <TypeScriptCompile Include="ClientApp\app\business\venda\venda-menu.component.ts" />
   </ItemGroup>
 

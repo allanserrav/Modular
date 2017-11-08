@@ -13,7 +13,8 @@ import { AppComponent } from './core/main/app.component'
 
 // Modules
 import { AppModuleMaterial } from './app.module.material';
-import { AppModuleCore } from './app.module.core';
+import { AppModuleCore } from './core/app.module.core';
+import { AppModuleBusiness } from './business/app.module.business';
 
 @NgModule({
     bootstrap: [AppComponent],
@@ -26,7 +27,8 @@ import { AppModuleCore } from './app.module.core';
         FormsModule,
         ReactiveFormsModule,
         AppModuleMaterial,
-        AppModuleCore
+        AppModuleCore,
+        AppModuleBusiness
     ],
     providers: [
         { provide: 'ORIGIN_URL', useValue: location.origin }
